@@ -65,7 +65,7 @@ const defaultIndex string = `<!DOCTYPE HTML>
 		</tbody>
 	</table>
 	<footer>
-	  This
+	  <a href="https://github.com/goblinlordx/merged-serve">merged-serve/0.0.1 Server</a>
 	</footer>
 </body>
 </html>`

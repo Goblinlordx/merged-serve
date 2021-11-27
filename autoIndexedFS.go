@@ -2,7 +2,6 @@ package main
 
 import (
 	"bytes"
-	"fmt"
 	"html/template"
 	"io/fs"
 	"net/http"
@@ -154,7 +153,6 @@ func (aifs autoIndexedFS) Open(path string) (http.File, error) {
 	}{Path: p, Entries: entries})
 
 	if err != nil {
-		fmt.Println(err)
 		return nil, err
 	}
 
