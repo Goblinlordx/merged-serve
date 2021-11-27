@@ -31,4 +31,4 @@ jobs:
           context: .
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: goblinlordx/merged-serve:latest
+          tags: baldiviab/merged-serve:latest
